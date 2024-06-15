@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Convertor</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="pngwing.com.png" type="image/png">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="pngwing.com.png" type="image/png" />
+  </head>
+  <body>
     <nav>
-        <img src="pngwing.com.png" alt="">
-        <h2>TempConvertor</h2>
+      <img src="pngwing.com.png" alt="" />
+      <h2>TempConvertor</h2>
     </nav>
-<div class="container">
-    <form action="">
+    <div class="container">
+      <form action="">
         <h1>Temperature Convertor</h1>
-        <input type="number" name="" id="tempFiled" placeholder="0" >
+        <input type="number" name="" id="tempFiled" placeholder="0" />
         <div>
-            <label for="toCelsius">
-                <input type="radio" name="unit" id="toCelsius">
-                <img src="thermometer.png" >
-                Fahrenheit <span>&#8658;</span> Celsius
-            </label>
+          <label for="toCelsius">
+            <input type="radio" name="unit" id="toCelsius" />
+            <img src="thermometer.png" />
+            Fahrenheit <span>&#8658;</span> Celsius
+          </label>
         </div>
         <div>
-            <label for="toFahrenheit">
-                <input type="radio" name="unit" id="toFahrenheit">
-                <img src="fahrenheit.png" alt="">
-                Celsius <span>&#8658;</span> Fahrenheit
-            </label>
+          <label for="toFahrenheit">
+            <input type="radio" name="unit" id="toFahrenheit" />
+            <img src="fahrenheit.png" alt="" />
+            Celsius <span>&#8658;</span> Fahrenheit
+          </label>
         </div>
         <button onclick="convert()" type="button">Submit</button>
-            <h1 id="result" ></h1>
-    </form>
-</div>
-<footer>
-    <p>Design and Developed By <span>Jazeem Mp</span></p>
-</footer>
-<script src="script.js"></script>   
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
+        <h1 id="result"></h1>
+      </form>
+    </div>
+    <footer>
+      <p>Design and Developed By <span>Jazeem Mp</span></p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
 </html>
